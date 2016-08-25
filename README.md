@@ -9,26 +9,34 @@ Premissas:
 
 ## Instalação
 
-Instale o git
+#### Instale o git
+
+Instruções aqui:
 
     https://git-scm.com/book/pt-br/v1/Primeiros-passos-Instalando-Git
 
-Copie todos os arquivos dessa pasta no diretorio rais de onde estão os XMLs
+#### Copie todos os arquivos dessa pasta no diretorio rais de onde estão os XMLs
 
-    git clone git@github.com:jlneto/xml2danfe.git
+- va para a pasta raiz dos xmls
+- execute o comando abaixo para baixar os arquviso desse respositório para essa pasta
 
-Instale o ruby 2 ou superior
+      git clone git@github.com:jlneto/xml2danfe.git .
+
+#### Instale o ruby 2 ou superior
+   
+Instruções aqui:
+    
     https://www.ruby-lang.org/pt/documentation/installation/
 
-Instale a gem bundler
+#### Instale a gem bundler
     
     gem install bundler
     
-Instale as demais dependencias
+#### Instale as demais dependencias
 
     bundle install
     
-Execute o aplicativo    
+#### Execute o aplicativo    
 
     ruby xml2danfe.rb
     
